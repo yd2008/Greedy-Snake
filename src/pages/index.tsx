@@ -68,6 +68,7 @@ const Stage = () => {
     <div>
       <div className="main">
         <div className="controlInfo">暂停：空格  重开：r 支持连按加速</div>
+        <div className="controlInfo" style={{top: -125}}>键盘 → ← ↑ ↓ 操作</div>
         <div className="tips">{tips}</div>
         <div className="stage">
           <Snake

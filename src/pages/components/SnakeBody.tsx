@@ -1,6 +1,5 @@
 import './SnakeBody.css';
 import { IPoint } from '../index';
-
 export interface ISnakeBodyProps extends IPoint {
   isHead?: boolean;
 }
