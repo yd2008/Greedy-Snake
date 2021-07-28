@@ -1,0 +1,19 @@
+.food {
+  position: absolute;
+  left: 60px;
+  top: 100px;
+  width: 10px;
+  height: 10px;
+  background-color: #b7d4a8;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.food > div {
+  width: 4px;
+  height: 4px;
+  background-color: #1d1d1f;
+  transform: rotate(45deg);
+}

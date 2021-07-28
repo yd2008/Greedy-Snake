@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: bold 20px "Courier";
+    height: 620px;
+}
+
+.main{
+    width: 360px;
+    height: 420px;
+    background-color: #b7d4a8;
+    border: 10px solid #1d1d1f;
+    border-radius: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    
+}
+
+.controlInfo {
+    width: fit-content;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    color: skyblue;
+}
+
+.tips {
+    width: fit-content;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    color: red;
+}
+
+.stage{
+    position: relative;
+    width: 304px;
+    height: 304px;
+    border: 2px solid #1d1d1f;
+    background-color: #b7d4a8;
+}

@@ -1,0 +1,8 @@
+
+.snake > div {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #1d1d1f;
+  border: 1px solid #b7d4a8;
+}

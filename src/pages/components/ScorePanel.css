@@ -1,0 +1,12 @@
+.scorePanel{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reopen{
+    padding: 2px 5px;
+    background-color: #b7d4a8;
+    color: #1d1d1f;
+    border-radius: 5px;
+}
